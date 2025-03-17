@@ -3,4 +3,5 @@ export interface TreeNodeData {
   left?: TreeNodeData;
   right?: TreeNodeData;
   id: string; // Unique identifier for each node
+  isLoading?: boolean;
 } 
